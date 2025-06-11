@@ -1,1 +1,175 @@
-[02:41:34] [Thread-1/INFO]: Stopping server
+[00:14:20] [Server thread/INFO]: lahermanadejairo suffocated in a wall
+[00:20:35] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113124, l='ServerLevel[world]', x=341.47, y=66.00, z=211.99] died: Zombie was slain by lahermanadejairo
+[00:21:37] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113070, l='ServerLevel[world]', x=349.33, y=64.00, z=260.61] died: Zombie was slain by lahermanadejairo
+[00:22:10] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/113068, l='ServerLevel[world]', x=381.69, y=64.00, z=200.79] died: Skeleton was slain by lahermanadejairo
+[00:23:51] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113763, l='ServerLevel[world]', x=369.63, y=64.00, z=230.86] died: Zombie was slain by lahermanadejairo
+[00:24:30] [Server thread/INFO]: Named entity EntitySpider['Spider'/113685, l='ServerLevel[world]', x=378.66, y=66.62, z=173.70] died: Spider was slain by lahermanadejairo
+[00:24:40] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/114054, l='ServerLevel[world]', x=378.70, y=64.00, z=171.91] died: Skeleton was blown up by Creeper
+[00:24:40] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113942, l='ServerLevel[world]', x=376.81, y=64.00, z=171.51] died: Zombie was blown up by Creeper
+[00:24:55] [Server thread/INFO]: Named entity EntitySpider['Spider'/114053, l='ServerLevel[world]', x=356.92, y=64.00, z=153.12] died: Spider was slain by lahermanadejairo
+[00:25:07] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/113948, l='ServerLevel[world]', x=346.06, y=66.00, z=182.60] died: Skeleton was slain by lahermanadejairo
+[00:25:24] [Server thread/INFO]: Named entity EntitySheep['Sheep'/111824, l='ServerLevel[world]', x=313.19, y=69.00, z=195.82] died: Sheep was slain by lahermanadejairo
+[00:25:26] [Server thread/INFO]: Named entity EntitySheep['Sheep'/111857, l='ServerLevel[world]', x=318.20, y=69.00, z=194.20] died: Sheep was slain by lahermanadejairo
+[00:25:29] [Server thread/INFO]: Named entity EntitySheep['Sheep'/111826, l='ServerLevel[world]', x=322.28, y=68.00, z=181.76] died: Sheep was slain by lahermanadejairo
+[00:25:40] [Server thread/INFO]: Named entity EntityZombie['Zombie'/114326, l='ServerLevel[world]', x=324.56, y=69.00, z=213.22] died: Zombie was slain by lahermanadejairo
+[00:25:46] [Server thread/INFO]: Named entity EntityChicken['Chicken'/111797, l='ServerLevel[world]', x=336.25, y=67.00, z=229.11] died: Chicken was slain by lahermanadejairo
+[00:42:29] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:46:17] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/117521, l='ServerLevel[world]', x=346.23, y=9.00, z=235.62] died: Skeleton was slain by lahermanadejairo
+[00:46:20] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/117520, l='ServerLevel[world]', x=346.69, y=9.00, z=232.01] died: Skeleton was slain by lahermanadejairo
+[00:47:55] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/117681, l='ServerLevel[world]', x=344.70, y=9.00, z=212.21] died: Skeleton was slain by lahermanadejairo
+[00:47:57] [Server thread/INFO]: Named entity EntityZombie['Zombie'/117682, l='ServerLevel[world]', x=343.10, y=9.48, z=212.95] died: Zombie was slain by lahermanadejairo
+[00:52:27] [Server thread/INFO]: Named entity EntityZombie['Zombie'/117694, l='ServerLevel[world]', x=376.70, y=19.44, z=234.64] died: Zombie was slain by lahermanadejairo
+[00:53:51] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/118452, l='ServerLevel[world]', x=357.70, y=17.00, z=206.70] died: Skeleton was slain by lahermanadejairo
+[00:57:20] [Server thread/INFO]: Named entity EntityZombie['Zombie'/119216, l='ServerLevel[world]', x=334.28, y=13.00, z=235.43] died: Zombie was slain by lahermanadejairo
+[00:57:34] [Server thread/INFO]: Named entity EntityZombie['Zombie'/119218, l='ServerLevel[world]', x=338.95, y=9.00, z=235.68] died: Zombie was slain by lahermanadejairo
+[01:01:25] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:08:59] [Server thread/INFO]: lahermanadejairo lost connection: Disconnected
+[01:08:59] [Server thread/INFO]: lahermanadejairo left the game
+[01:09:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:26:08] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:55:00] [Thread-1/INFO]: Stopping server
+[01:55:00] [Thread-1/INFO]: [GriefPrevention] Disabling GriefPrevention v16.12.0-d4d7ac4
