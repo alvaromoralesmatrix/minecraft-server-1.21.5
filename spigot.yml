@@ -38,7 +38,7 @@ settings:
     maxAbsorption:
       max: 2048.0
     maxHealth:
-      max: 2048.0
+      max: 100000000
     movementSpeed:
       max: 2048.0
     attackDamage:

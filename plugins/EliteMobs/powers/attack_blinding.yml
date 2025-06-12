@@ -1,0 +1,14 @@
+isEnabled: true
+effect: WITCH
+powerType: MISCELLANEOUS
+eliteScript:
+  BlindPlayer:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: POTION_EFFECT
+      amplifier: 0
+      potionEffectType: blindness
+      Target:
+        targetType: DIRECT_TARGET

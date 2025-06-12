@@ -1,0 +1,14 @@
+isEnabled: true
+effect: EMERALD
+powerType: OFFENSIVE
+eliteScript:
+  PoisonPlayer:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: POTION_EFFECT
+      amplifier: 0
+      potionEffectType: poison
+      Target:
+        targetType: DIRECT_TARGET

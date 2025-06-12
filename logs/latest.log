@@ -1,175 +1,110 @@
-[00:14:20] [Server thread/INFO]: lahermanadejairo suffocated in a wall
-[00:20:35] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113124, l='ServerLevel[world]', x=341.47, y=66.00, z=211.99] died: Zombie was slain by lahermanadejairo
-[00:21:37] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113070, l='ServerLevel[world]', x=349.33, y=64.00, z=260.61] died: Zombie was slain by lahermanadejairo
-[00:22:10] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/113068, l='ServerLevel[world]', x=381.69, y=64.00, z=200.79] died: Skeleton was slain by lahermanadejairo
-[00:23:51] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113763, l='ServerLevel[world]', x=369.63, y=64.00, z=230.86] died: Zombie was slain by lahermanadejairo
-[00:24:30] [Server thread/INFO]: Named entity EntitySpider['Spider'/113685, l='ServerLevel[world]', x=378.66, y=66.62, z=173.70] died: Spider was slain by lahermanadejairo
-[00:24:40] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/114054, l='ServerLevel[world]', x=378.70, y=64.00, z=171.91] died: Skeleton was blown up by Creeper
-[00:24:40] [Server thread/INFO]: Named entity EntityZombie['Zombie'/113942, l='ServerLevel[world]', x=376.81, y=64.00, z=171.51] died: Zombie was blown up by Creeper
-[00:24:55] [Server thread/INFO]: Named entity EntitySpider['Spider'/114053, l='ServerLevel[world]', x=356.92, y=64.00, z=153.12] died: Spider was slain by lahermanadejairo
-[00:25:07] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/113948, l='ServerLevel[world]', x=346.06, y=66.00, z=182.60] died: Skeleton was slain by lahermanadejairo
-[00:25:24] [Server thread/INFO]: Named entity EntitySheep['Sheep'/111824, l='ServerLevel[world]', x=313.19, y=69.00, z=195.82] died: Sheep was slain by lahermanadejairo
-[00:25:26] [Server thread/INFO]: Named entity EntitySheep['Sheep'/111857, l='ServerLevel[world]', x=318.20, y=69.00, z=194.20] died: Sheep was slain by lahermanadejairo
-[00:25:29] [Server thread/INFO]: Named entity EntitySheep['Sheep'/111826, l='ServerLevel[world]', x=322.28, y=68.00, z=181.76] died: Sheep was slain by lahermanadejairo
-[00:25:40] [Server thread/INFO]: Named entity EntityZombie['Zombie'/114326, l='ServerLevel[world]', x=324.56, y=69.00, z=213.22] died: Zombie was slain by lahermanadejairo
-[00:25:46] [Server thread/INFO]: Named entity EntityChicken['Chicken'/111797, l='ServerLevel[world]', x=336.25, y=67.00, z=229.11] died: Chicken was slain by lahermanadejairo
-[00:42:29] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:46:17] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/117521, l='ServerLevel[world]', x=346.23, y=9.00, z=235.62] died: Skeleton was slain by lahermanadejairo
-[00:46:20] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/117520, l='ServerLevel[world]', x=346.69, y=9.00, z=232.01] died: Skeleton was slain by lahermanadejairo
-[00:47:55] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/117681, l='ServerLevel[world]', x=344.70, y=9.00, z=212.21] died: Skeleton was slain by lahermanadejairo
-[00:47:57] [Server thread/INFO]: Named entity EntityZombie['Zombie'/117682, l='ServerLevel[world]', x=343.10, y=9.48, z=212.95] died: Zombie was slain by lahermanadejairo
-[00:52:27] [Server thread/INFO]: Named entity EntityZombie['Zombie'/117694, l='ServerLevel[world]', x=376.70, y=19.44, z=234.64] died: Zombie was slain by lahermanadejairo
-[00:53:51] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/118452, l='ServerLevel[world]', x=357.70, y=17.00, z=206.70] died: Skeleton was slain by lahermanadejairo
-[00:57:20] [Server thread/INFO]: Named entity EntityZombie['Zombie'/119216, l='ServerLevel[world]', x=334.28, y=13.00, z=235.43] died: Zombie was slain by lahermanadejairo
-[00:57:34] [Server thread/INFO]: Named entity EntityZombie['Zombie'/119218, l='ServerLevel[world]', x=338.95, y=9.00, z=235.68] died: Zombie was slain by lahermanadejairo
-[01:01:25] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[01:08:59] [Server thread/INFO]: lahermanadejairo lost connection: Disconnected
-[01:08:59] [Server thread/INFO]: lahermanadejairo left the game
-[01:09:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[01:26:08] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[01:55:00] [Thread-1/INFO]: Stopping server
-[01:55:00] [Thread-1/INFO]: [GriefPrevention] Disabling GriefPrevention v16.12.0-d4d7ac4
+[00:00:18] [Server thread/INFO]: alvaromoca issued server command: /gamemode survival alvaromoca
+[00:00:18] [Server thread/INFO]: [alvaromoca: Set own game mode to Survival Mode]
+[00:01:14] [Server thread/INFO]: Named entity EntityZombie['Zombie'/265779, l='ServerLevel[world]', x=248.02, y=58.00, z=-401.23] died: Zombie was slain by alvaromoca
+[00:01:16] [Server thread/INFO]: Named entity EntityZombie['Zombie'/265780, l='ServerLevel[world]', x=248.52, y=58.00, z=-401.77] died: Zombie was slain by alvaromoca
+[00:01:25] [Server thread/INFO]: [EliteMobs] Event beast_master.yml ended!
+[00:01:27] [Server thread/INFO]: Named entity EntitySpider['Spider'/267337, l='ServerLevel[world]', x=261.97, y=64.00, z=-420.80] died: Spider was slain by alvaromoca
+[00:01:43] [Server thread/INFO]: Named entity EntitySpider['Spider'/268116, l='ServerLevel[world]', x=274.54, y=64.00, z=-443.61] died: Spider was slain by alvaromoca
+[00:01:44] [Server thread/INFO]: Named entity EntitySpider['Spider'/268117, l='ServerLevel[world]', x=274.87, y=64.00, z=-440.85] died: Spider was slain by alvaromoca
+[00:01:53] [Server thread/INFO]: Named entity EntityCreeper['Creeper'/268115, l='ServerLevel[world]', x=273.50, y=64.00, z=-433.55] died: Creeper was slain by alvaromoca
+[00:02:09] [Server thread/INFO]: Named entity EntitySpider['Spider'/267336, l='ServerLevel[world]', x=274.52, y=64.00, z=-432.41] died: Spider was slain by alvaromoca
+[00:02:20] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/267689, l='ServerLevel[world]', x=286.78, y=66.00, z=-471.70] died: Skeleton was slain by alvaromoca
+[00:02:32] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/267687, l='ServerLevel[world]', x=295.84, y=67.00, z=-480.52] died: Skeleton was slain by alvaromoca
+[00:02:34] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/267688, l='ServerLevel[world]', x=298.97, y=66.00, z=-479.93] died: Skeleton was slain by alvaromoca
+[00:02:45] [Server thread/INFO]: Named entity EntityZombie['Zombie'/268127, l='ServerLevel[world]', x=296.81, y=65.00, z=-469.19] died: Zombie was slain by alvaromoca
+[00:03:08] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/270152, l='ServerLevel[world]', x=273.55, y=63.00, z=-428.81] died: Skeleton was slain by alvaromoca
+[00:03:09] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/270151, l='ServerLevel[world]', x=273.99, y=63.00, z=-429.07] died: Skeleton was slain by alvaromoca
+[00:03:13] [Server thread/INFO]: Named entity EntitySpider['Spider'/270150, l='ServerLevel[world]', x=262.30, y=64.00, z=-429.41] died: Spider was slain by alvaromoca
+[00:03:46] [Server thread/INFO]: Named entity EntityZombie['Zombie'/270535, l='ServerLevel[world]', x=250.60, y=64.00, z=-399.46] died: Zombie was slain by alvaromoca
+[00:03:54] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/269950, l='ServerLevel[world]', x=248.63, y=58.00, z=-402.17] died: Skeleton was slain by alvaromoca
+[00:04:02] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/269948, l='ServerLevel[world]', x=249.70, y=58.00, z=-401.52] died: Skeleton was slain by alvaromoca
+[00:04:20] [Server thread/INFO]: alvaromoca lost connection: Disconnected
+[00:04:20] [Server thread/INFO]: alvaromoca left the game
+[00:05:20] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:07:58] [Server thread/INFO]: [EliteMobs] Event weapons_goblin.yml ended!
+[00:11:18] [User Authenticator #16/INFO]: UUID of player alvaromoca is 4044c98e-9121-3ed7-bcec-2d9d75593d30
+[00:11:19] [Server thread/INFO]: alvaromoca joined the game
+[00:11:19] [Server thread/INFO]: alvaromoca[/38.250.158.133:45050] logged in with entity id 281067 at ([world]246.9226799675136, 64.0, -400.618158309861)
+[00:11:20] [Server thread/INFO]: [EliteMobs] Event full_moon.yml has been queued!
+[00:11:20] [Craft Scheduler Thread - 250/INFO]: [EliteMobs] User 4044c98e-9121-3ed7-bcec-2d9d75593d30 data successfully read!
+[00:11:31] [Server thread/INFO]: Named entity EntityZombie['Zombie'/281133, l='ServerLevel[world]', x=255.24, y=64.00, z=-414.70] died: Zombie was slain by alvaromoca
+[00:11:46] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/281101, l='ServerLevel[world]', x=280.46, y=63.00, z=-412.76] died: Skeleton was slain by alvaromoca
+[00:11:51] [Server thread/INFO]: Named entity EntitySpider['Spider'/281126, l='ServerLevel[world]', x=279.09, y=63.00, z=-416.75] died: Spider was slain by alvaromoca
+[00:12:09] [Server thread/INFO]: Named entity EntityCreeper['Creeper'/281098, l='ServerLevel[world]', x=259.93, y=64.00, z=-406.42] died: Creeper was slain by alvaromoca
+[00:12:26] [Server thread/INFO]: Named entity EntitySpider['Spider'/283042, l='ServerLevel[world]', x=259.43, y=64.00, z=-436.57] died: Spider was slain by alvaromoca
+[00:12:29] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/283312, l='ServerLevel[world]', x=259.32, y=61.90, z=-439.90] died: Skeleton was slain by alvaromoca
+[00:12:39] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/283311, l='ServerLevel[world]', x=257.70, y=64.00, z=-444.70] died: Skeleton was slain by alvaromoca
+[00:19:50] [Server thread/INFO]: alvaromoca issued server command: /gamemode creative alvaromoca
+[00:19:50] [Server thread/INFO]: [alvaromoca: Set own game mode to Creative Mode]
+[00:21:24] [Server thread/INFO]: alvaromoca issued server command: /gamemode survival alvaromoca
+[00:21:24] [Server thread/INFO]: [alvaromoca: Set own game mode to Survival Mode]
+[00:23:27] [Server thread/INFO]: [0;31;1mThe Zombie King has been sighted![m
+[00:25:33] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/313839, l='ServerLevel[world]', x=304.30, y=64.00, z=-467.70] died: Skeleton was slain by alvaromoca
+[00:25:39] [Server thread/INFO]: Named entity EntityZombie['Zombie'/314552, l='ServerLevel[world]', x=301.33, y=65.00, z=-478.80] died: Zombie was slain by alvaromoca
+[00:25:42] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/313840, l='ServerLevel[world]', x=302.97, y=64.00, z=-464.26] died: Skeleton was slain by alvaromoca
+[00:25:47] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/313838, l='ServerLevel[world]', x=307.63, y=64.00, z=-459.30] died: Skeleton was slain by alvaromoca
+[00:26:09] [Server thread/INFO]: Named entity EntityCreeper['Lvl 10 Elite Creeper'/314725, l='ServerLevel[world]', x=285.75, y=64.00, z=-433.70] died: Lvl 10 Elite Creeper was blown up by ❤❤❤❤❤❤❤❤❤❤
+[00:26:25] [Server thread/INFO]: Named entity EntitySpider['Lvl 7 Elite Spider'/314727, l='ServerLevel[world]', x=277.97, y=63.00, z=-422.95] died: Lvl 7 Elite Spider was slain by alvaromoca
+[00:26:38] [Server thread/INFO]: Named entity EntityCreeper['Creeper'/315385, l='ServerLevel[world]', x=280.44, y=63.00, z=-410.41] died: Creeper was slain by alvaromoca
+[00:27:07] [Server thread/INFO]: Named entity EntitySpider['Spider'/316159, l='ServerLevel[world]', x=260.02, y=70.88, z=-369.13] died: Spider was slain by alvaromoca
+[00:27:09] [Server thread/INFO]: Named entity EntitySpider['Spider'/316160, l='ServerLevel[world]', x=260.21, y=70.88, z=-368.89] died: Spider was slain by alvaromoca
+[00:27:17] [Server thread/INFO]: Named entity EntityZombie['Zombie'/316838, l='ServerLevel[world]', x=260.66, y=70.00, z=-359.10] died: Zombie was slain by alvaromoca
+[00:27:18] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/316158, l='ServerLevel[world]', x=264.99, y=70.00, z=-360.14] died: Skeleton was slain by alvaromoca
+[00:27:24] [Server thread/INFO]: Named entity EntityZombie['Zombie'/316839, l='ServerLevel[world]', x=266.30, y=69.00, z=-354.59] died: Zombie was slain by alvaromoca
+[00:28:22] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/315370, l='ServerLevel[world]', x=247.96, y=58.00, z=-401.89] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:28:24] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/312174, l='ServerLevel[world]', x=248.46, y=58.00, z=-401.74] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:29:20] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml has been queued!
+[00:29:20] [Server thread/INFO]: [0;31;1mA Coins Goblin has been sighted![m
+[00:29:43] [Server thread/INFO]: Named entity EntityZombieHusk['❤❤❤❤❤❤❤❤❤❤'/311949, l='ServerLevel[world]', x=249.94, y=64.00, z=-406.61] died: ❤❤❤❤❤❤❤❤❤❤ was doomed to fall by alvaromoca
+[00:29:44] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/313313, l='ServerLevel[world]', x=251.98, y=64.00, z=-400.29] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:29:57] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 The Living Dead'/313091, l='ServerLevel[world]', x=242.22, y=64.00, z=-399.99] died: 〔6〕 The Living Dead was slain by alvaromoca
+[00:30:03] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/312859, l='ServerLevel[world]', x=243.62, y=64.00, z=-401.41] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:30:20] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/312624, l='ServerLevel[world]', x=247.30, y=58.00, z=-400.93] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:30:30] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/313311, l='ServerLevel[world]', x=248.30, y=58.00, z=-398.47] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:30:34] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/317252, l='ServerLevel[world]', x=249.70, y=58.00, z=-398.30] died: Skeleton was slain by alvaromoca
+[00:30:43] [Server thread/INFO]: Named entity EntityZombieHusk['〔7〕 The Living Dead'/313085, l='ServerLevel[world]', x=249.62, y=58.00, z=-400.07] died: 〔7〕 The Living Dead was slain by alvaromoca
+[00:30:49] [Server thread/INFO]: alvaromoca was hollowed out by 〔7〕 The Living Dead!
+[00:31:24] [Server thread/INFO]: Named entity EntitySpider['Spider'/323002, l='ServerLevel[world]', x=244.61, y=65.09, z=-398.88] died: Spider was slain by alvaromoca
+[00:32:03] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/322840, l='ServerLevel[world]', x=257.18, y=64.00, z=-407.52] died: Skeleton was slain by alvaromoca
+[00:32:38] [Server thread/INFO]: [EliteMobs] Event dead_moon.yml ended!
+[00:32:48] [Server thread/INFO]: Named entity EntityCreeper['Creeper'/324992, l='ServerLevel[world]', x=273.08, y=63.00, z=-417.50] died: Creeper was slain by alvaromoca
+[00:32:55] [Server thread/INFO]: Named entity EntityZombie['Zombie'/323025, l='ServerLevel[world]', x=267.60, y=63.00, z=-417.47] died: Zombie was slain by alvaromoca
+[00:33:26] [Server thread/INFO]: Named entity EntitySpider['Spider'/324891, l='ServerLevel[world]', x=261.38, y=71.88, z=-318.83] died: Spider was slain by alvaromoca
+[00:33:31] [Server thread/INFO]: Named entity EntitySpider['Spider'/324567, l='ServerLevel[world]', x=262.21, y=70.00, z=-321.97] died: Spider was slain by alvaromoca
+[00:33:33] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/324892, l='ServerLevel[world]', x=266.28, y=70.00, z=-319.73] died: Skeleton was slain by alvaromoca
+[00:33:37] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/324482, l='ServerLevel[world]', x=277.99, y=68.00, z=-323.15] died: Skeleton was slain by alvaromoca
+[00:33:48] [Server thread/INFO]: Named entity EntityCreeper['Creeper'/323563, l='ServerLevel[world]', x=260.51, y=70.00, z=-364.41] died: Creeper was slain by alvaromoca
+[00:34:55] [Server thread/INFO]: alvaromoca lost connection: Disconnected
+[00:34:55] [Server thread/INFO]: alvaromoca left the game
+[00:35:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:58:13] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml ended!
+[02:59:34] [User Authenticator #17/INFO]: UUID of player alvaromoca is 4044c98e-9121-3ed7-bcec-2d9d75593d30
+[02:59:34] [Server thread/INFO]: alvaromoca joined the game
+[02:59:34] [Server thread/INFO]: alvaromoca[/38.250.158.133:23578] logged in with entity id 509244 at ([world]241.8400095849001, 70.0, -478.49688317290975)
+[02:59:35] [Craft Scheduler Thread - 286/INFO]: [EliteMobs] User 4044c98e-9121-3ed7-bcec-2d9d75593d30 data successfully read!
+[03:00:20] [Server thread/INFO]: [EliteMobs] Event zombie_totem.yml has been queued!
+[03:00:20] [Server thread/INFO]: [0;31;1mA Dr. Craftenmine abomination has been sighted![m
+[03:03:07] [Server thread/INFO]: Named entity EntityCow['Cow'/512180, l='ServerLevel[world]', x=239.69, y=103.00, z=-228.45] died: Cow was slain by alvaromoca
+[03:03:56] [Server thread/INFO]: Named entity EntityPig['Pig'/509397, l='ServerLevel[world]', x=259.52, y=70.00, z=-369.25] died: Pig was blown up by 「7」 Head Zombie
+[03:04:51] [Server thread/INFO]: Named entity EntityZombie['「7」 Totem Zombie'/510438, l='ServerLevel[world]', x=247.49, y=58.31, z=-401.75] died: 「7」 Totem Zombie was slain by alvaromoca
+[03:04:57] [Server thread/INFO]: Named entity EntityZombie['「7」 Totem Zombie'/510437, l='ServerLevel[world]', x=247.60, y=58.00, z=-402.43] died: 「7」 Totem Zombie was slain by alvaromoca
+[03:05:19] [Server thread/INFO]: Named entity EntityZombie['「7」 Totem Zombie'/510436, l='ServerLevel[world]', x=248.81, y=58.00, z=-402.06] died: 「7」 Totem Zombie was slain by alvaromoca
+[03:05:29] [Server thread/INFO]: Named entity EntityZombie['「7」 Totem Zombie'/510435, l='ServerLevel[world]', x=248.06, y=58.00, z=-401.58] died: 「7」 Totem Zombie was slain by alvaromoca
+[03:05:35] [Server thread/INFO]: Named entity EntityZombie['「7」 Head Zombie'/510434, l='ServerLevel[world]', x=248.19, y=58.00, z=-401.61] died: 「7」 Head Zombie was slain by alvaromoca
+[03:05:35] [Server thread/INFO]: [0;33;1m[21m---------------------------------------------[m
+[03:05:35] [Server thread/INFO]: [0;31;22mThe Zombie Totem been slain![m
+[03:05:35] [Server thread/INFO]: [0;31;1m[21m    1st Damager: alvaromoca [0;31;1mwith 73.4 damage![m
+[03:05:35] [Server thread/INFO]: [m
+[03:05:35] [Server thread/INFO]: [m
+[03:05:35] [Server thread/INFO]: [0;32;1mSlayers: alvaromoca[m
+[03:05:35] [Server thread/INFO]: [0;33;1m[21m---------------------------------------------[m
+[03:05:35] [Server thread/INFO]: [EliteMobs] Event zombie_totem.yml ended!
+[03:06:20] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
+[03:06:20] [Server thread/INFO]: [0;31;1mA Treasure Goblin has been sighted![m
+[03:09:55] [Server thread/INFO]: Named entity EntitySkeleton['Lvl 9 Elite Skeleton'/523644, l='ServerLevel[world]', x=254.50, y=64.00, z=-450.15] died: Lvl 9 Elite Skeleton was slain by alvaromoca
+[03:10:06] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/523645, l='ServerLevel[world]', x=255.30, y=64.00, z=-429.54] died: Skeleton was slain by alvaromoca
+[03:10:24] [Server thread/INFO]: Named entity EntitySkeleton['Skeleton'/524925, l='ServerLevel[world]', x=232.34, y=64.00, z=-403.71] died: Skeleton was slain by alvaromoca
+[03:10:47] [Server thread/INFO]: alvaromoca lost connection: Disconnected
+[03:10:47] [Server thread/INFO]: alvaromoca left the game
+[03:11:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:17:29] [Thread-1/INFO]: Stopping server

@@ -1,0 +1,14 @@
+isEnabled: true
+effect: GLASS_PANE
+powerType: MISCELLANEOUS
+eliteScript:
+  BossInvisibility:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - duration: 2147483647
+      action: POTION_EFFECT
+      amplifier: 0
+      potionEffectType: invisibility
+      Target:
+        targetType: SELF

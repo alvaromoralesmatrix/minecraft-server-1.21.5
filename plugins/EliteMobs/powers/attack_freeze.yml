@@ -1,0 +1,29 @@
+isEnabled: true
+effect: PACKED_ICE
+powerType: OFFENSIVE
+eliteScript:
+  FreezePlayer:
+    Cooldowns:
+      global: 60
+      local: 300
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: POTION_EFFECT
+      amplifier: 5
+      potionEffectType: slowness
+      Target:
+        targetType: DIRECT_TARGET
+    - duration: 60
+      action: PLACE_BLOCK
+      Target:
+        targetType: DIRECT_TARGET
+      material: PACKED_ICE
+      conditions:
+        locationIsAir: true
+    - action: VISUAL_FREEZE
+      repeatEvery: 1
+      times: 60
+      Target:
+        targetType: DIRECT_TARGET

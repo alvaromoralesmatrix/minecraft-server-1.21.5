@@ -451,7 +451,8 @@
       "minecraft:spider": "2025-06-09 19:51:59 +0000",
       "minecraft:zombie": "2025-06-09 19:50:00 +0000",
       "minecraft:creeper": "2025-06-09 19:54:08 +0000",
-      "minecraft:drowned": "2025-06-09 19:56:54 +0000"
+      "minecraft:drowned": "2025-06-09 19:56:54 +0000",
+      "minecraft:husk": "2025-06-11 20:06:51 +0000"
     },
     "done": false
   },
@@ -1127,12 +1128,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-06-09 22:01:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2025-06-09 21:54:11 +0000"
@@ -1148,12 +1143,6 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2025-06-09 21:54:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_wood": {
-    "criteria": {
-      "has_log": "2025-06-09 22:01:59 +0000"
     },
     "done": true
   },
@@ -1181,9 +1170,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-06-09 22:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-06-09 22:01:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
       "has_log": "2025-06-09 22:01:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-06-11 20:05:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-06-11 20:09:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-06-11 20:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-06-11 20:09:08 +0000"
     },
     "done": true
   },
