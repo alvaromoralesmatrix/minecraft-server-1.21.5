@@ -1,6 +1,6 @@
 # Sets the language file used by EliteMobs
 # Do NOT change this manually! It is meant to be installed with the command '/em language <languagefile>'
-language: english
+language: spanish.yml
 # Sets whether elites and bosses spawned by elitemobs will always show their nametags.
 # Not recommended!
 alwaysShowEliteMobNameTags: false

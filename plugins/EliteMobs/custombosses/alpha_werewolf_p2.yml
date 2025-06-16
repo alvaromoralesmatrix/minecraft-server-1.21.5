@@ -25,10 +25,26 @@ powers:
 - ground_pound.yml
 - moonwalk.yml
 - spirit_walk.yml
-- summonable:summonType=ON_HIT:filename=beta_wolf.yml:amount=5:chance=0.1:inheritAggro=true:spawnNearby=true
-- summonable:summonType=ON_HIT:filename=gamma_werewolf.yml:amount=1:chance=0.1:inheritAggro=true:spawnNearby=true
-- summonable:summonType=GLOBAL:filename=gamma_werewolf.yml:amount=1:customSpawn=normal_surface_spawn.yml
-- summonable:summonType=GLOBAL:filename=omega_wolf.yml:amount=2:customSpawn=normal_surface_spawn.yml
+- summonType: ON_HIT
+  inheritAggro: true
+  amount: 5
+  filename: beta_wolf.yml
+  chance: 0.1
+  spawnNearby: true
+- summonType: ON_HIT
+  inheritAggro: true
+  amount: 1
+  filename: gamma_werewolf.yml
+  chance: 0.1
+  spawnNearby: true
+- summonType: GLOBAL
+  amount: 1
+  filename: gamma_werewolf.yml
+  customSpawn: normal_surface_spawn.yml
+- summonType: GLOBAL
+  amount: 2
+  filename: omega_wolf.yml
+  customSpawn: normal_surface_spawn.yml
 trails:
 - BONE
 locationMessage: '&7Alpha Wolf: $distance blocks away!'
