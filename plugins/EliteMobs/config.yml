@@ -6,7 +6,7 @@ language: spanish.yml
 alwaysShowEliteMobNameTags: false
 # Sets the amount of passive mobs that have to be in close proximity before they can be merged.
 # Don't set this to 0!
-superMobStackAmount: 50
+superMobStackAmount: 100
 # Makes elites not damage passive mobs with explosions.
 preventEliteCreeperDamageToPassiveMobs: true
 # Sets whether EliteMobs will use titles to warn players about missing permissions
@@ -18,7 +18,7 @@ preventEliteMobConversionOfNamedMobs: true
 # Running certain boss plugins will automatically set this to true, no matter what the value in the config is.
 enableHighCompatibilityMode: false
 # Sets the elite spawn bonus for the nightmare gamemode
-nightmareWorldSpawnBonus: 0.5
+nightmareWorldSpawnBonus: 0.2
 # Sets if the centralized /em command opens the main status page of the plugin.
 # Highly recommended!
 emLeadsToStatusMenu: true
@@ -36,7 +36,7 @@ doExplosionRegen: true
 # Sets if the explosion regen will also regenerate the contents of containers such as chests.
 # Turning it to false will make elite explosions not blow up containers.
 doRegenerateContainers: true
-defaultTransitiveBlockLimiter: 500
+defaultTransitiveBlockLimiter: 200
 # Sets whether the /em menu will only use the inventory-based menu style which is compatible with bedrock.
 # As a reminder, players can otherwise do the command /em alt to switch between /em menu styles
 onlyUseBedrockMenus: false
