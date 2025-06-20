@@ -1,617 +1,379 @@
-[04:18:07] [User Authenticator #29/INFO]: UUID of player ServerOverflow1 is e2e9de7f-e48d-3808-ae0b-6c1e435df619
-[04:18:12] [Server thread/INFO]: ServerOverflow1 (/95.141.241.193:58972) lost connection: Disconnected
-[10:51:48] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+[19:50:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:50:39] [ServerMain/INFO]: Loaded 1373 recipes
+[19:50:39] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[19:50:39] [Server thread/INFO]: Loading properties
+[19:50:39] [Server thread/INFO]: This server is running CraftBukkit version 4502-Spigot-270012a-e74f0d2 (MC: 1.21.5) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[19:50:40] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[19:50:40] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[19:50:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:50:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:50:40] [Server thread/INFO]: Debug logging is disabled
+[19:50:40] [Server thread/INFO]: Default game type: SURVIVAL
+[19:50:40] [Server thread/INFO]: Generating keypair
+[19:50:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:50:41] [Server thread/INFO]: Using epoll channel type
+[19:50:41] [Server thread/ERROR]: Could not load 'plugins/spigot-1.21.5.jar'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:158) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:122) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R4.CraftServer.loadPlugins(CraftServer.java:467) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:235) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1007) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:51:44] [User Authenticator #30/INFO]: UUID of player lahermanadejairo is d74de12f-f289-309a-a0d9-87e6d5a31beb
-[18:51:45] [Server thread/INFO]: lahermanadejairo joined the game
-[18:51:45] [Server thread/INFO]: lahermanadejairo[/38.25.30.66:12162] logged in with entity id 6280271 at ([world]345.9548698738726, 66.0, 249.40400522941584)
-[18:51:46] [Craft Scheduler Thread - 1194/INFO]: [EliteMobs] User d74de12f-f289-309a-a0d9-87e6d5a31beb data successfully read!
-[18:52:22] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
-[18:52:22] [Server thread/INFO]: [0;32;1m¡Un Goblin del Tesoro ha sido avistado![m
-[18:52:38] [Server thread/INFO]: lahermanadejairo issued server command: /elitemobs track boss 94aa6fcf-66d4-4708-aad8-cd80eb585b07
-[18:52:38] [Server thread/INFO]: lahermanadejairo issued server command: /elitemobs track boss 94aa6fcf-66d4-4708-aad8-cd80eb585b07
-[18:52:38] [Server thread/INFO]: lahermanadejairo issued server command: /elitemobs track boss 94aa6fcf-66d4-4708-aad8-cd80eb585b07
-[18:52:44] [Async Chat Thread - #1/INFO]: <lahermanadejairo> e[m
-[18:57:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3476ms or 69 ticks behind
-[18:58:25] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml has been queued!
-[18:58:25] [Server thread/INFO]: [0;31;1m¡Un Goblin de Monedas ha sido avistado![m
-[18:59:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
-[18:59:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2563ms or 51 ticks behind
-[19:00:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
-[19:01:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2589ms or 51 ticks behind
-[19:01:20] [Server thread/INFO]: ¡Goblin del Tesoro 「6」 llegó a los cerebros de lahermanadejairo!
-[19:01:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3782ms or 75 ticks behind
-[19:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2582ms or 51 ticks behind
-[19:03:16] [Server thread/INFO]: [0;31;22m¡El Rey Zombie ha sido avistado![m
-[19:06:33] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301020, l='ServerLevel[world]', x=357.30, y=61.00, z=257.70] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:06:36] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6300926, l='ServerLevel[world]', x=357.30, y=61.00, z=257.70] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:06:45] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301024, l='ServerLevel[world]', x=358.70, y=59.00, z=257.70] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:07:37] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301643, l='ServerLevel[world]', x=357.49, y=64.00, z=257.96] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:08:38] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301645, l='ServerLevel[world]', x=357.97, y=64.00, z=258.34] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:08:42] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml has been queued!
-[19:08:42] [Server thread/INFO]: [0;32;1m¡Un Goblin Con Armadura ha sido avistado![m
-[19:08:57] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301439, l='ServerLevel[world]', x=358.51, y=64.00, z=258.30] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:09:17] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301549, l='ServerLevel[world]', x=357.18, y=64.00, z=259.30] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:09:23] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301651, l='ServerLevel[world]', x=358.34, y=64.00, z=259.93] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:09:27] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301647, l='ServerLevel[world]', x=356.88, y=64.00, z=260.30] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:09:36] [Server thread/INFO]: Named entity EntityZombieHusk['❤❤❤❤❤❤❤❤❤❤'/6300823, l='ServerLevel[world]', x=354.31, y=68.00, z=271.31] died: ❤❤❤❤❤❤❤❤❤❤ was doomed to fall by lahermanadejairo
-[19:10:06] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301553, l='ServerLevel[world]', x=359.39, y=64.00, z=260.52] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:10:14] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6300924, l='ServerLevel[world]', x=353.60, y=64.00, z=270.03] died: 〔6〕 Muertos vivientes was doomed to fall by lahermanadejairo
-[19:10:19] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301022, l='ServerLevel[world]', x=359.30, y=64.00, z=259.70] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:10:50] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301445, l='ServerLevel[world]', x=358.70, y=64.00, z=260.30] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:10:56] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6300928, l='ServerLevel[world]', x=357.70, y=64.00, z=260.58] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:10:58] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301551, l='ServerLevel[world]', x=342.84, y=67.00, z=254.86] died: 〔6〕 Muertos vivientes was doomed to fall by lahermanadejairo
-[19:11:04] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6301018, l='ServerLevel[world]', x=356.27, y=64.00, z=259.53] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:11:14] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6304435, l='ServerLevel[world]', x=357.88, y=64.00, z=261.49] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:11:23] [Server thread/INFO]: Named entity EntityZombieHusk['〔6〕 Muertos vivientes'/6305370, l='ServerLevel[world]', x=355.27, y=64.00, z=259.48] died: 〔6〕 Muertos vivientes was slain by lahermanadejairo
-[19:11:53] [Server thread/INFO]: ¡lahermanadejairo fue carroña de un 〔6〕 Muertos vivientes!
-[19:12:27] [Server thread/INFO]: [EliteMobs] Event dead_moon.yml ended!
-[19:12:52] [Server thread/INFO]: lahermanadejairo lost connection: Disconnected
-[19:12:52] [Server thread/INFO]: lahermanadejairo left the game
-[19:13:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[19:22:01] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml ended!
-[19:28:35] [Server thread/INFO]: [EliteMobs] Event coins_goblin.yml ended!
-[19:37:19] [Server thread/INFO]: [EliteMobs] Event armor_goblin.yml ended!
-[20:10:07] [User Authenticator #31/INFO]: UUID of player lahermanadejairo is d74de12f-f289-309a-a0d9-87e6d5a31beb
-[20:10:08] [Server thread/INFO]: lahermanadejairo joined the game
-[20:10:08] [Server thread/INFO]: lahermanadejairo[/38.25.30.66:42717] logged in with entity id 6308813 at ([world]364.1789760223178, 65.0, 253.30000001192093)
-[20:10:09] [Craft Scheduler Thread - 1217/INFO]: [EliteMobs] User d74de12f-f289-309a-a0d9-87e6d5a31beb data successfully read!
-[20:10:42] [Server thread/INFO]: [EliteMobs] Event weapons_goblin.yml has been queued!
-[20:10:42] [Server thread/INFO]: [0;31;1mUn Goblin Armado ha sido avistado![m
-[20:10:49] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 8 more
+[19:50:41] [Server thread/ERROR]: Could not load 'plugins/WorldEdit.jar'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/apache/logging/log4j/util/ReflectionUtil
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:406) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:313) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:122) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R4.CraftServer.loadPlugins(CraftServer.java:467) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:235) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1007) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:16:42] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
-[20:16:42] [Server thread/INFO]: [0;31;1m¡Un Duende de Encantamientos ha sido avistado![m
-[20:16:49] [Server thread/INFO]: lahermanadejairo issued server command: /elitemobs track boss 003151ac-7388-4612-b9dc-3fe3f42582cd
-[20:16:51] [Async Chat Thread - #2/INFO]: <lahermanadejairo> t[m
-[20:22:42] [Server thread/INFO]: [EliteMobs] Event zombie_totem.yml has been queued!
-[20:22:42] [Server thread/INFO]: [0;31;1mLa Abominación del Dr. Craftenmine ha sido vista![m
-[20:22:51] [Server thread/INFO]: Named entity EntitySpider['Araña de Elite Nivel 7'/6314702, l='ServerLevel[world]', x=398.90, y=63.75, z=216.42] died: Araña de Elite Nivel 7 was slain by lahermanadejairo
-[20:23:01] [Server thread/INFO]: Named entity EntityPillager['Pillager'/6310499, l='ServerLevel[world]', x=412.75, y=63.00, z=205.78] died: Pillager was slain by lahermanadejairo
-[20:23:05] [Server thread/INFO]: Named entity EntityPillager['Pillager'/6310497, l='ServerLevel[world]', x=417.34, y=64.00, z=196.84] died: Pillager was slain by lahermanadejairo
-[20:24:07] [Server thread/INFO]: Named entity EntitySheep['Sheep'/6308876, l='ServerLevel[world]', x=437.55, y=46.05, z=171.55] died: Sheep was slain by lahermanadejairo
-[20:24:21] [Server thread/INFO]: Named entity EntitySheep['Sheep'/6308902, l='ServerLevel[world]', x=435.56, y=62.49, z=181.35] died: Sheep was slain by lahermanadejairo
-[20:25:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2714ms or 54 ticks behind
-[20:27:44] [Server thread/INFO]: [EliteMobs] Event pillager_caravan.yml has been queued!
-[20:27:44] [Server thread/INFO]: [0;31;1m¡Una caravana Pillager ha sido avistada![m
-[20:29:45] [Server thread/INFO]: ¡「6」 Duende de Encantamientos llegó a los cerebros de lahermanadejairo!
-[20:29:53] [Server thread/INFO]: lahermanadejairo lost connection: Disconnected
-[20:29:53] [Server thread/INFO]: lahermanadejairo left the game
-[20:30:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:40:39] [Server thread/INFO]: [EliteMobs] Event weapons_goblin.yml ended!
-[20:47:12] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml ended!
-[20:51:35] [Server thread/INFO]: [EliteMobs] Event zombie_totem.yml ended!
-[20:58:08] [Server thread/INFO]: [EliteMobs] Event pillager_caravan.yml ended!
-[23:22:14] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:50) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:553) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:171) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitEncodeHandler.exceptionCaught(BukkitEncodeHandler.java:110) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at com.viaversion.viaversion.bukkit.handlers.BukkitDecodeHandler.exceptionCaught(BukkitDecodeHandler.java:66) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+Caused by: java.lang.NoClassDefFoundError: org/apache/logging/log4j/util/ReflectionUtil
+	at com.sk89q.worldedit.log4jbridge.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:42) ~[?:?]
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46) ~[log4j-api-2.24.1.jar:2.24.1]
+	at com.sk89q.worldedit.log4jbridge.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:29) ~[?:?]
+	at com.sk89q.worldedit.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358) ~[?:?]
+	at com.sk89q.worldedit.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.<clinit>(WorldEditPlugin.java:98) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.util.ReflectionUtil
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:160) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:112) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at com.sk89q.worldedit.log4jbridge.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:42) ~[?:?]
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:46) ~[log4j-api-2.24.1.jar:2.24.1]
+	at com.sk89q.worldedit.log4jbridge.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:29) ~[?:?]
+	at com.sk89q.worldedit.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358) ~[?:?]
+	at com.sk89q.worldedit.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.<clinit>(WorldEditPlugin.java:98) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:68) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	... 8 more
+[19:50:41] [Server thread/INFO]: [Denizen] Loading 2 libraries... please wait
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/mongodb/mongodb-driver-sync/4.8.1/mongodb-driver-sync-4.8.1.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/mongodb/bson/4.8.1/bson-4.8.1.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/mongodb/mongodb-driver-core/4.8.1/mongodb-driver-core-4.8.1.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/mongodb/bson-record-codec/4.8.1/bson-record-codec-4.8.1.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/org/json/json/20220320/json-20220320.jar
+[19:50:42] [Server thread/INFO]: [Denizen] Loaded library /root/minecraft-server-1.21.5/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[19:50:42] [Server thread/ERROR]: Could not load 'plugins/WorldGuard.jar'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency WorldEdit. Please download and install WorldEdit to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:280) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:122) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R4.CraftServer.loadPlugins(CraftServer.java:467) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:235) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1007) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[23:54:20] [User Authenticator #32/INFO]: UUID of player alvaromoca is 4044c98e-9121-3ed7-bcec-2d9d75593d30
-[23:54:21] [Server thread/INFO]: alvaromoca joined the game
-[23:54:21] [Server thread/INFO]: alvaromoca[/38.250.158.133:36848] logged in with entity id 6319619 at ([world]239.6190651585964, 75.0, -478.30000001192093)
-[23:54:22] [Craft Scheduler Thread - 1255/INFO]: [EliteMobs] User 4044c98e-9121-3ed7-bcec-2d9d75593d30 data successfully read!
-[23:54:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2718ms or 54 ticks behind
-[23:55:01] [User Authenticator #33/INFO]: UUID of player alvaromoca is 4044c98e-9121-3ed7-bcec-2d9d75593d30
-[23:55:22] [User Authenticator #34/INFO]: UUID of player alvaromoca is 4044c98e-9121-3ed7-bcec-2d9d75593d30
-[23:55:37] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:37] [Spigot Watchdog Thread/ERROR]: The server has stopped responding! This is (probably) not a Spigot bug.
-[23:55:37] [Spigot Watchdog Thread/ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
-[23:55:37] [Spigot Watchdog Thread/ERROR]: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
-[23:55:37] [Spigot Watchdog Thread/ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
-[23:55:37] [Spigot Watchdog Thread/ERROR]: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
-[23:55:37] [Spigot Watchdog Thread/ERROR]: If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
-[23:55:37] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
-[23:55:37] [Spigot Watchdog Thread/ERROR]: Spigot version: 4502-Spigot-270012a-e74f0d2 (MC: 1.21.5)
-[23:55:37] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:37] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
-[23:55:37] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:37] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.bG(EntityLiving.java:3780)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.canCollideWithBukkit(EntityLiving.java:3786)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.IEntitySelector.lambda$pushableBy$6(IEntitySelector.java:55)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.IEntitySelector$$Lambda/0x000074884969d0b0.test(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.function.Predicate.lambda$and$0(Predicate.java:69)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.function.Predicate$$Lambda/0x0000748848b7e008.test(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.lambda$getEntities$0(World.java:843)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World$$Lambda/0x00007488495ca758.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.util.AbortableIterationConsumer.a(SourceFile:25)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.util.AbortableIterationConsumer$$Lambda/0x00007488495cab70.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySection.a(SourceFile:35)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage.a(SourceFile:123)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage$$Lambda/0x00007488495cad88.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage.a(SourceFile:66)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage.b(SourceFile:123)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.LevelEntityGetterAdapter.a(SourceFile:43)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.a(World.java:842)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.i(World.java:898)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.n(EntityLiving.java:3629)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.d_(EntityLiving.java:3562)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityInsentient.d_(EntityInsentient.java:543)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityAgeable.d_(EntityAgeable.java:157)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.animal.EntityAnimal.d_(EntityAnimal.java:76)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.animal.EntityChicken.d_(EntityChicken.java:98)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3221)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityInsentient.g(EntityInsentient.java:412)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer.a(WorldServer.java:878)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x0000748849667a70.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.a(World.java:689)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer.lambda$tick$2(WorldServer.java:448)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x0000748849589338.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.a(SourceFile:54)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer.a(WorldServer.java:430)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1517)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1362)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1068)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000748848c70b08.run(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait(Object.java:366)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait(Object.java:339)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 6 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Notification Thread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Common-Cleaner
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 12 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 14 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: JNA Cleaner
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer hack thread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.sleep0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.sleep(Thread.java:509)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.SystemUtils$9.run(SourceFile:988)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Yggdrasil Key Fetcher
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait(Object.java:366)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.IEntitySelector.lambda$pushableBy$6(IEntitySelector.java:70)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.IEntitySelector$$Lambda/0x000074884969d0b0.test(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.function.Predicate.lambda$and$0(Predicate.java:69)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.function.Predicate$$Lambda/0x0000748848b7e008.test(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.lambda$getEntities$0(World.java:843)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World$$Lambda/0x00007488495ca758.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.util.AbortableIterationConsumer.a(SourceFile:25)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.util.AbortableIterationConsumer$$Lambda/0x00007488495cab70.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySection.a(SourceFile:35)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage.a(SourceFile:123)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage$$Lambda/0x00007488495cad88.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage.a(SourceFile:66)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntitySectionStorage.b(SourceFile:123)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.LevelEntityGetterAdapter.a(SourceFile:43)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.a(World.java:842)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.i(World.java:898)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.n(EntityLiving.java:3629)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.d_(EntityLiving.java:3562)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityInsentient.d_(EntityInsentient.java:543)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityAgeable.d_(EntityAgeable.java:157)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.animal.EntityAnimal.d_(EntityAnimal.java:76)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.animal.EntityChicken.d_(EntityChicken.java:98)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:3221)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.entity.EntityInsentient.g(EntityInsentient.java:412)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer.a(WorldServer.java:878)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x0000748849667a70.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.World.a(World.java:689)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer.lambda$tick$2(WorldServer.java:448)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x0000748849589338.accept(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.a(SourceFile:54)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer.a(WorldServer.java:430)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1517)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1362)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1068)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000748848c70b08.run(Unknown Source)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: TerminalConsoleWriter
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.InheritableThreadLocal.getMap(InheritableThreadLocal.java:83)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ThreadLocal.get(ThreadLocal.java:185)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ThreadLocal.get(ThreadLocal.java:172)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.Ansi.isEnabled(Ansi.java:175)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.Ansi.ansi(Ansi.java:179)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_21_R4.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:43)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Server console handler
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: true | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:jline.internal.InputStreamReader.read(InputStreamReader.java:261)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		Locked on:jline.internal.InputStreamReader.read(InputStreamReader.java:198)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.io.FileInputStream.readBytes(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.io.FileInputStream.read(FileInputStream.java:287)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.io.BufferedInputStream.read(BufferedInputStream.java:312)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.internal.InputStreamReader.read(InputStreamReader.java:261)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.internal.InputStreamReader.read(InputStreamReader.java:198)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:131)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: false | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.management@21.0.7/sun.management.ThreadImpl.dumpThreads0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.management@21.0.7/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:90)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait(Object.java:366)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.TimerThread.mainLoop(Timer.java:563)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.TimerThread.run(Timer.java:516)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #0
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 33 | Suspended: false | Native: true | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:220)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:213)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Timer-0
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 52 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Object.wait(Object.java:366)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.TimerThread.mainLoop(Timer.java:563)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.TimerThread.run(Timer.java:516)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: mysql-cj-abandoned-connection-cleanup
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 82 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 83 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 84 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #1
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 87 | Suspended: false | Native: true | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:220)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:213)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #2
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 90 | Suspended: false | Native: true | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait0(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:193)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:304)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:368)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Epoll Server IO #3
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 91 | Suspended: false | Native: true | State: RUNNABLE
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:220)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.Native.epollWait(Native.java:213)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/ERROR]: Current Thread: process reaper
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	PID: 3451 | Suspended: false | Native: false | State: TIMED_WAITING
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 	Stack:
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
-[23:55:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
-[23:55:38] [Spigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
-[23:55:38] [Spigot Watchdog Thread/INFO]: Stopping server
-[23:55:38] [Spigot Watchdog Thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.12.0-d4d7ac4
-[23:55:38] [Spigot Watchdog Thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[23:55:38] [Spigot Watchdog Thread/INFO]: [ViaVersion] Disabling ViaVersion v4.10.3-SNAPSHOT
-[23:55:38] [Spigot Watchdog Thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[23:55:38] [Spigot Watchdog Thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
-[23:55:38] [Spigot Watchdog Thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[23:55:38] [Spigot Watchdog Thread/INFO]: [mcMMO] Saving mcMMOPlayers... (1)
-[23:55:38] [Spigot Watchdog Thread/INFO]: [mcMMO] Finished save operation for 1 players!
-[23:55:38] [Spigot Watchdog Thread/INFO]: [EliteMobs] Disabling EliteMobs v9.4.3
-[23:55:38] [Spigot Watchdog Thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[23:55:38] [Spigot Watchdog Thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[23:55:38] [Spigot Watchdog Thread/INFO]: [EliteMobs] All done! Good night.
-[23:55:38] [Spigot Watchdog Thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v4.29-dev
-[23:55:38] [Spigot Watchdog Thread/INFO]: [Denizen] Disabling Denizen v1.3.0-SNAPSHOT (build 1803-REL)
-[23:55:38] [Spigot Watchdog Thread/INFO]: [NoteBlockAPI] Disabling NoteBlockAPI v1.2.2.1
-[23:55:38] [Spigot Watchdog Thread/INFO]: [Craftconomy3] Disabling Craftconomy3 v3.5.4-SNAPSHOT
-[23:55:38] [Spigot Watchdog Thread/INFO]: Saving players
-[23:55:38] [Spigot Watchdog Thread/INFO]: alvaromoca lost connection: Server closed
-[23:56:09] [Server thread/INFO]: alvaromoca (/38.250.158.133:42817) lost connection: Disconnected
-[23:56:09] [Server thread/INFO]: alvaromoca (/38.250.158.133:7893) lost connection: Disconnected
-[23:56:09] [IO-Worker-368/ERROR]: Could not schedule ConsecutiveExecutor
-java.util.concurrent.RejectedExecutionException: Task IOWorker-chunk RUNNING false rejected from java.util.concurrent.ThreadPoolExecutor@14fe43a7[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 681739]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376) ~[?:?]
-	at net.minecraft.TracingExecutor.execute(SourceFile:36) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.util.thread.AbstractConsecutiveExecutor.g(SourceFile:98) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at net.minecraft.util.thread.AbstractConsecutiveExecutor.run(SourceFile:65) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[19:50:43] [Server thread/INFO]: [Craftconomy3] Loading Craftconomy3 v3.5.4-SNAPSHOT
+[19:50:43] [Server thread/INFO]: [NoteBlockAPI] Loading NoteBlockAPI v1.2.2.1
+[19:50:43] [Server thread/INFO]: [Denizen] Loading Denizen v1.3.0-SNAPSHOT (build 1803-REL)
+[19:50:43] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.29-dev
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ╔══════════════════════════════════════════════════════════════════╗
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║                               ERROR                               
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║   Unsupported platform or version 4502-Spigot-270012a-e74f0d2 (MC: 1.21.5)
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║                                                                   
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║   This version of plugin only supports                            
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║   server minecraft version 1.15.2
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║   and following platforms:                                        
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║   - Spigot (https://www.spigotmc.org/)                            
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║   - Paper (https://papermc.io/)                                   
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║                                                                   
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║                                                                   
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ║       https://github.com/ProtocolSupport/ProtocolSupport/         
+[19:50:43] [Server thread/ERROR]: [ProtocolSupport] ╚══════════════════════════════════════════════════════════════════╝
+[19:50:43] [Server thread/INFO]: [EliteMobs] Loading EliteMobs v9.4.3
+[19:50:43] [Server thread/INFO]: [EliteMobs] MagmaCore v1.13-SNAPSHOT initialized!
+[19:50:43] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
+[19:50:43] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.2.029-SNAPSHOT
+[19:50:43] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.10.3-SNAPSHOT
+[19:50:43] [Server thread/INFO]: [ViaVersion] ViaVersion 4.10.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[19:50:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:50:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:50:45] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.12.0-d4d7ac4
+[19:50:45] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.29-dev
+[19:50:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:50:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:50:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:50:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:50:45] [Server thread/INFO]: Preparing level "world"
+[19:50:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:50:45] [Server thread/INFO]: View Distance: 10
+[19:50:45] [Server thread/INFO]: Simulation Distance: 10
+[19:50:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:50:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:50:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:50:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:50:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:50:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:50:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:50:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:50:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:50:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:50:45] [Server thread/INFO]: Mob Spawn Range: 6
+[19:50:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:50:45] [Server thread/INFO]: Max TNT Explosions: 100
+[19:50:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:50:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:50:45] [Server thread/INFO]: View Distance: 10
+[19:50:45] [Server thread/INFO]: Simulation Distance: 10
+[19:50:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:50:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:50:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:50:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:50:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:50:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:50:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:50:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:50:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:50:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:50:45] [Server thread/INFO]: Mob Spawn Range: 6
+[19:50:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:50:45] [Server thread/INFO]: Max TNT Explosions: 100
+[19:50:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:50:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:50:45] [Server thread/INFO]: View Distance: 10
+[19:50:45] [Server thread/INFO]: Simulation Distance: 10
+[19:50:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:50:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:50:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:50:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:50:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:50:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:50:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[19:50:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[19:50:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[19:50:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[19:50:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:50:45] [Server thread/INFO]: Mob Spawn Range: 6
+[19:50:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:50:45] [Server thread/INFO]: Max TNT Explosions: 100
+[19:50:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:50:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:59] [Server thread/INFO]: Time elapsed: 13208 ms
+[19:50:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:50:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:50:59] [Server thread/INFO]: Time elapsed: 526 ms
+[19:50:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:50:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:51:00] [Server thread/INFO]: Time elapsed: 348 ms
+[19:51:00] [Server thread/INFO]: [Craftconomy3] Enabling Craftconomy3 v3.5.4-SNAPSHOT
+[19:51:00] [Server thread/INFO]: [Craftconomy3] Starting up!
+[19:51:00] [Server thread/INFO]: [Craftconomy3] Loading the Configuration
+[19:51:00] [Server thread/INFO]: [Craftconomy3] Loading listeners.
+[19:51:00] [Server thread/INFO]: [Craftconomy3] Loading commands
+[19:51:00] [Server thread/WARN]: [Craftconomy3] Loading Craftconomy in setup mode. Please type /ccsetup to start the setup.
+[19:51:00] [Server thread/INFO]: [NoteBlockAPI] Enabling NoteBlockAPI v1.2.2.1
+[19:51:00] [Server thread/INFO]: [Denizen] Enabling Denizen v1.3.0-SNAPSHOT (build 1803-REL)
+[19:51:00] [Server thread/ERROR]: Error occurred while enabling Denizen v1.3.0-SNAPSHOT (build 1803-REL) (Is it up to date?)
+java.lang.NoSuchMethodError: net.md_5.bungee.chat.TextComponentSerializer: method 'void <init>()' not found
+	at com.denizenscript.denizen.utilities.FormattedTextHelper.<clinit>(FormattedTextHelper.java:865) ~[?:?]
+	at com.denizenscript.denizen.utilities.PaperAPITools.sendConsoleMessage(PaperAPITools.java:107) ~[?:?]
+	at com.denizenscript.denizen.utilities.debugging.DebugConsoleSender.sendMessage(DebugConsoleSender.java:22) ~[?:?]
+	at com.denizenscript.denizen.utilities.implementation.DenizenCoreImplementation.doFinalDebugOutput(DenizenCoreImplementation.java:395) ~[?:?]
+	at com.denizenscript.denizencore.utilities.debugging.DebugInternals.internalFinalOutputPath(DebugInternals.java:413) ~[?:?]
+	at com.denizenscript.denizencore.utilities.debugging.DebugInternals.finalOutputDebugText(DebugInternals.java:357) ~[?:?]
+	at com.denizenscript.denizencore.utilities.debugging.DebugInternals.logInternal(DebugInternals.java:464) ~[?:?]
+	at com.denizenscript.denizencore.utilities.debugging.Debug.lambda$log$6(Debug.java:165) ~[?:?]
+	at com.denizenscript.denizencore.DenizenCore.runOnMainThread(DenizenCore.java:257) ~[?:?]
+	at com.denizenscript.denizencore.utilities.debugging.Debug.log(Debug.java:165) ~[?:?]
+	at com.denizenscript.denizencore.DenizenCore.init(DenizenCore.java:138) ~[?:?]
+	at com.denizenscript.denizen.Denizen.onEnable(Denizen.java:122) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:492) ~[spigot-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_21_R4.CraftServer.enablePlugin(CraftServer.java:578) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at org.bukkit.craftbukkit.v1_21_R4.CraftServer.enablePlugins(CraftServer.java:492) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:652) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:268) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1007) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:51:00] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v9.4.3
+[19:51:00] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[19:51:00] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[19:51:00] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[19:51:00] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[19:51:00] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[19:51:00] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[19:51:00] [Server thread/INFO]: By MagmaGuy - v. 9.4.3
+[19:51:00] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R4
+[19:51:00] [Server thread/INFO]: Reflections took 133 ms to scan 82 urls, producing 0 keys and 0 values
+[19:51:02] [Server thread/INFO]: Reflections took 87 ms to scan 1 urls, producing 1 keys and 60 values
+[19:51:02] [Server thread/INFO]: Reflections took 28 ms to scan 1 urls, producing 1 keys and 16 values
+[19:51:03] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:51:08] [Server thread/INFO]: Reflections took 24 ms to scan 1 urls, producing 1 keys and 71 values
+[19:51:08] [Server thread/INFO]: Reflections took 59 ms to scan 1 urls, producing 10 keys and 219 values
+[19:51:09] [Server thread/INFO]: Reflections took 8 ms to scan 1 urls, producing 1 keys and 15 values
+[19:51:09] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is not enabled!
+[19:51:09] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[19:51:09] [Server thread/INFO]: Reflections took 20 ms to scan 1 urls, producing 1 keys and 116 values
+[19:51:11] [Server thread/INFO]: Reflections took 14 ms to scan 1 urls, producing 1 keys and 72 values
+[19:51:11] [Server thread/WARN]: [EliteMobs] File  /root/minecraft-server-1.21.5/./em_primis_wormhole does not exist!
+[19:51:11] [Server thread/WARN]: [EliteMobs] File  /root/minecraft-server-1.21.5/./em_oasis_wormhole does not exist!
+[19:51:11] [Server thread/INFO]: Reflections took 14 ms to scan 1 urls, producing 1 keys and 134 values
+[19:51:12] [Server thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[19:51:12] [Server thread/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 33 values
+[19:51:12] [Server thread/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 23 values
+[19:51:12] [Server thread/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[19:51:12] [Server thread/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 8 values
+[19:51:12] [Server thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[19:51:12] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.029-SNAPSHOT
+[19:51:13] [Server thread/INFO]: [mcMMO] Loaded 220 Alchemy potions, skipped 0.
+[19:51:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.10.3-SNAPSHOT
+[19:51:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: Unknown (770) (770)
+[19:51:15] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[19:51:15] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[19:51:15] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[19:51:15] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[19:51:15] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[19:51:15] [Server thread/INFO]: [ViaVersion] Registering ProtocolSupport compat connection listener
+[19:51:15] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.12.0-d4d7ac4
+[19:51:15] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[19:51:15] [Server thread/INFO]: [GriefPrevention] 4 total claims loaded.
+[19:51:15] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[19:51:15] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[19:51:15] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[19:51:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:51:16] [Server thread/INFO]: Done (31.055s)! For help, type "help"
+[19:51:16] [Craft Scheduler Thread - 5/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:51:16] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.0, you're on: 4.10.3-SNAPSHOT
+[19:51:16] [Craft Scheduler Thread - 1/INFO]: [EliteMobs] Latest public release is 9.4.3
+[19:51:16] [Craft Scheduler Thread - 1/INFO]: [EliteMobs] Your version is 9.4.3
+[19:51:16] [Craft Scheduler Thread - 1/INFO]: [EliteMobs] You are running the latest version!
+[19:51:26] [Server thread/WARN]: [NoteBlockAPI] Task #3 for NoteBlockAPI v1.2.2.1 generated an exception
+java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bounds for length 5
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[?:?]
+	at java.base/java.lang.String.substring(String.java:2834) ~[?:?]
+	at com.xxmicloxx.NoteBlockAPI.utils.Updater.checkUpdate(Updater.java:18) ~[?:?]
+	at com.xxmicloxx.NoteBlockAPI.NoteBlockAPI$2.run(NoteBlockAPI.java:151) ~[?:?]
+	at org.bukkit.craftbukkit.v1_21_R4.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at org.bukkit.craftbukkit.v1_21_R4.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.c(MinecraftServer.java:1473) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1362) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1068) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:325) ~[spigot-1.21.5-R0.1-SNAPSHOT.jar:4502-Spigot-270012a-e74f0d2]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:52:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:54:16] [Server thread/INFO]: [GriefPrevention]  yaco's new player claim expired.
+[19:58:24] [User Authenticator #1/INFO]: UUID of player alvaromoca is 4044c98e-9121-3ed7-bcec-2d9d75593d30
+[19:58:26] [Server thread/INFO]: alvaromoca joined the game
+[19:58:26] [Server thread/INFO]: alvaromoca[/38.250.158.133:19880] logged in with entity id 81 at ([world]246.80650321691462, 64.0, -444.5815833516385)
+[19:58:28] [Craft Scheduler Thread - 7/INFO]: [EliteMobs] User 4044c98e-9121-3ed7-bcec-2d9d75593d30 data successfully read!
+[19:58:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2896ms or 57 ticks behind
+[19:58:52] [Server thread/WARN]: alvaromoca moved too quickly! -4.280664597135626,2.9215999984741217,-11.039815287675083
+[19:58:56] [Server thread/INFO]: alvaromoca lost connection: Disconnected
+[19:58:56] [Server thread/INFO]: alvaromoca left the game
+[19:58:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11965ms or 239 ticks behind
+[19:59:31] [Thread-1/INFO]: Stopping server
+[19:59:31] [Thread-1/INFO]: [GriefPrevention] Disabling GriefPrevention v16.12.0-d4d7ac4
+[19:59:31] [Thread-1/INFO]: [GriefPrevention] GriefPrevention disabled.
